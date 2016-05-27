@@ -59,102 +59,14 @@ Desktop			Movies			WebstormProjects
 Documents		Music			pslog.txt
 Kalen-MacBook-Pro:~ kalen$ cd Desktop/
 Kalen-MacBook-Pro:Desktop kalen$ ls
-201503231803.zip			html绘制图表
-BaiDuYun				imooc
-CWCode					kalen_app_apple
-CheWen_WeChat				编辑用.css
-IOS_Development				三方接入
-IOS参考文献				唐巧作品
-Kalen					开发工具
-Navicat Premium.app			朱锦芳材料
-PHOTOSHOP_for_MAC快捷键大全.doc		优派佳果原图
-chartjs.rar				测试版本截图
-chewen					线上版本截图
-didReceiveLocalNotification.txt		优派佳果二维码 2
-eclipse					新版汽车秘书材料
-html5-line-and-column-chart.rar		自动布局经典代码
-html5-svg-line-chart.rar		管理信息系统毕业设计.doc
-Kalen-MacBook-Pro:Desktop kalen$ cd CWCode/
-Kalen-MacBook-Pro:CWCode kalen$ ls
-Documents			ios_install_assistant
-app_apple			ios_install_assistant_bak
-app_apple_bak			static
-app_ios				static_bak
-app_ios_bak			test1
-ios_cs_cs			项目进度执行表.numbers
-ios_cs_cs_bak
-Kalen-MacBook-Pro:CWCode kalen$ cd static
+static
 Kalen-MacBook-Pro:static kalen$ ls
 css	html	images	js	lib
 Kalen-MacBook-Pro:static kalen$ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   css/cw-wx3.css
-	modified:   html/coupons.html
 
-no changes added to commit (use "git add" and/or "git commit -a")
-Kalen-MacBook-Pro:static kalen$ git add .
-Kalen-MacBook-Pro:static kalen$ git commit -m "优惠券调整"
-[master 27e6788] 优惠券调整
- 2 files changed, 16 insertions(+), 5 deletions(-)
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ git fetch origin
-Kalen-MacBook-Pro:static kalen$ git rebase origin/master
-Current branch master is up to date.
-Kalen-MacBook-Pro:static kalen$ git push origin master
-Counting objects: 6, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (6/6), 664 bytes | 0 bytes/s, done.
-Total 6 (delta 5), reused 0 (delta 0)
-To ssh://git@113.31.72.204/static.git
-   d000035..27e6788  master -> master
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ 
-Kalen-MacBook-Pro:static kalen$ git log
-commit 27e678875051a3d2067cfeea5bedd2d881ac74ac
-Author: kalen <kalen5241@126.com>
-Date:   Thu Mar 31 11:04:31 2016 +0800
-
-    优惠券调整
-
-commit d000035c42d07654bfd01313f1b3821fc8b88193
-Author: kalen <kalen5241@126.com>
-Date:   Wed Mar 30 12:15:17 2016 +0800
-
-    优惠券
-
-commit 0a6307fbcda8f8dcdf8d704003031094ac6ff66d
-Author: kalen <kalen5241@126.com>
-Date:   Wed Mar 30 09:05:11 2016 +0800
-
-    主页
-
-commit 15f1f941d15f52b4bebfd10230c848914fbd2bd8
-Author: robin.liang <robin-leung@qq.com>
-Date:   Fri Mar 25 17:01:23 2016 +0800
-
-    Add 404 500
-Kalen-MacBook-Pro:static kalen$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   css/cw-wx3.css
-	modified:   html/coupons.html
 
 no changes added to commit (use "git add" and/or "git commit -a")
 Kalen-MacBook-Pro:static kalen$ git add .
@@ -415,40 +327,6 @@ Desktop			Movies			WebstormProjects
 Documents		Music			pslog.txt
 Kalen-MacBook-Pro:~ kalen$ cd Desktop/
 Kalen-MacBook-Pro:Desktop kalen$ ls
-201503231803.zip
-BaiDuYun
-CWCode
-CheWen_WeChat
-DIV CSS布局实例：CSS标签切换代码.html
-IOS_Development
-IOS参考文献
-Kalen
-Navicat Premium.app
-PHOTOSHOP_for_MAC快捷键大全.doc
-Tab Styles Inspiration.html
-Tab Styles Inspiration_files
-chartjs.rar
-chewen
-didReceiveLocalNotification.txt
-eclipse
-html5-line-and-column-chart.rar
-html5-svg-line-chart.rar
-html绘制图表
-imooc
-kalen_app_apple
-node-v4.4.1.pkg
-编辑用.css
-三方接入
-唐巧作品
-开发工具
-朱锦芳材料
-优派佳果原图
-测试版本截图
-线上版本截图
-优派佳果二维码 2
-新版汽车秘书材料
-自动布局经典代码
-管理信息系统毕业设计.doc
 Kalen-MacBook-Pro:Desktop kalen$ mkdir rn
 Kalen-MacBook-Pro:Desktop kalen$ cd rn/
 Kalen-MacBook-Pro:rn kalen$ l
